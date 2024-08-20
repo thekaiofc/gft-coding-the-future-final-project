@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 import java.util.NoSuchElementException;
 
 @RestControllerAdvice
-public class GlobalexceptionHandler {
+public class GlobalExeptionHandler {
 
-    private final Logger logger = LoggerFactory.getLogger(GlobalexceptionHandler.class);
+    private final Logger logger = LoggerFactory.getLogger(GlobalExeptionHandler.class);
 
     @ExceptionHandler(IllegalArgumentException.class)
     public ResponseEntity<String> handleBussinesException(IllegalArgumentException bussinesException) {
