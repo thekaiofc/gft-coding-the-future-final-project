@@ -1,0 +1,1 @@
+web: java -jar build/libs/gft-coding-the-future-0.0.1-SNAPSHOT.jar
